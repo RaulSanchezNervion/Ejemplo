@@ -7,6 +7,14 @@ public class Main {
 	public static void main(String[] args) {
 
 			//DeclaracionVariables
+			
+			Cadena a=new Cadena("Hola");
+			Cadena b=new Cadena("Lolo");
+			
+			cambio(a,b);
+			
+			System.out.println(b.getValue());
+		
 			char car,ant=' ';
 			int contMayus=0,contPuntuacion=0,consecutiva=0, totalCaracteres=0;
 			float porcentMayus, porcentPuntuacion, porcentConsecutiva;
@@ -70,6 +78,11 @@ public class Main {
 					}//fin else
 		tec.close();
 		}//fin main
+
+	private static void cambio(Cadena a2, Cadena b) {
+		b.setValue(a2.getValue());
+		
+	}
 
 	}//fin class
 
