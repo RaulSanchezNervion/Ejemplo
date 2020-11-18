@@ -11,7 +11,7 @@ public class Main {
 			Cadena a=new Cadena("Hola");
 			Cadena b=new Cadena("Lolo");
 			
-			cambio(a,b);
+			
 			
 			System.out.println(b.getValue());
 		
